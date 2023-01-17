@@ -1,0 +1,13 @@
+.pageFooter {
+  a {
+    color: #000000;
+    transition-duration: 0.3s;
+    text-decoration: none;
+    &.icon {
+      font-size: 30px;
+    }
+  }
+  a:hover {
+    color: #06700e;
+  }
+}

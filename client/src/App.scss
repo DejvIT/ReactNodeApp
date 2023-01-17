@@ -1,0 +1,88 @@
+.navbar {
+  box-shadow: none!important;
+}
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.microbagr-green-color {
+  color: #06700e!important;
+}
+
+.catalog-items-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 80px;
+  
+}
+@media only screen and (max-width: 1250px) {
+  .catalog-items-wrapper{
+    flex-wrap: wrap;
+  }
+  
+}
+.cta-green{
+  background-color: #5db85d;
+}
+/* Anchor reset */
+a {
+  color: white;
+  text-decoration: unset;
+}
+a:hover {
+  color: unset;
+}
+
+.btn-rounded {
+  border-radius: 30px !important;
+}
+
+.btn-sm.btn-icon {
+  padding: .5rem 0.8rem!important;
+}
+/* STRIPED TABLE ROW COLOR */
+.table-striped>tbody>tr:nth-of-type(odd) {
+  --bs-table-accent-bg: #f9f9f9;
+  color: #212529;
+}
+
+.reservation-calendar {
+  .fc-h-event {
+    border: none!important;
+    border-radius: 10px;
+  }
+  @media only screen and (min-width: 992px) {
+    .fc-daygrid-event {
+      padding: 30px!important;
+    }
+  }
+
+}
+
+.btn-success {
+  border-color: #06700e!important;
+  background-color: #06700e!important;
+}
+
+.chatbot {
+  .MuiSnackbarContent-root {
+    padding: 0!important;
+    .MuiSnackbarContent-message {
+      width: 100%!important;
+
+      .messages {
+        min-height: 300px;
+        max-height: 300px;
+        overflow-y: scroll;
+      }
+    }
+  }
+}

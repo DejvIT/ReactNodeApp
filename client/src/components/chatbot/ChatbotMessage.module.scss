@@ -1,0 +1,23 @@
+.chatbot {
+  .MuiSnackbarContent-message {
+    padding: 0!important;
+  }
+}
+
+.userbotMessage {
+  word-break: break-word;
+  max-width: 200px;
+  background: #036f0b;
+  border-radius: 10px;
+  padding: 12px;
+  text-align: left;
+}
+
+.chatbotMessage {
+  word-break: break-word;
+  max-width: 200px;
+  background: #e4e4e4;
+  color: #212529;
+  border-radius: 10px;
+  padding: 12px;
+}
